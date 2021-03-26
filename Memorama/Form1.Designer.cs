@@ -242,6 +242,7 @@
             this.HamCafeCover2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.HamCafeCover2.TabIndex = 20;
             this.HamCafeCover2.TabStop = false;
+            this.HamCafeCover2.Click += new System.EventHandler(this.HamCafeCover2_Click);
             // 
             // HamGrisCover1
             // 
@@ -252,6 +253,7 @@
             this.HamGrisCover1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.HamGrisCover1.TabIndex = 21;
             this.HamGrisCover1.TabStop = false;
+            this.HamGrisCover1.Click += new System.EventHandler(this.HamGrisCover1_Click);
             // 
             // HamGrisCover2
             // 
@@ -262,6 +264,7 @@
             this.HamGrisCover2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.HamGrisCover2.TabIndex = 22;
             this.HamGrisCover2.TabStop = false;
+            this.HamGrisCover2.Click += new System.EventHandler(this.HamGrisCover2_Click);
             // 
             // HamGunCover1
             // 
@@ -272,6 +275,7 @@
             this.HamGunCover1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.HamGunCover1.TabIndex = 23;
             this.HamGunCover1.TabStop = false;
+            this.HamGunCover1.Click += new System.EventHandler(this.HamGunCover1_Click);
             // 
             // HamGunCover2
             // 
@@ -282,6 +286,7 @@
             this.HamGunCover2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.HamGunCover2.TabIndex = 24;
             this.HamGunCover2.TabStop = false;
+            this.HamGunCover2.Click += new System.EventHandler(this.HamGunCover2_Click);
             // 
             // HamWhiteCover1
             // 
@@ -292,6 +297,7 @@
             this.HamWhiteCover1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.HamWhiteCover1.TabIndex = 25;
             this.HamWhiteCover1.TabStop = false;
+            this.HamWhiteCover1.Click += new System.EventHandler(this.HamWhiteCover1_Click);
             // 
             // HamWhiteCover2
             // 
@@ -302,6 +308,7 @@
             this.HamWhiteCover2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.HamWhiteCover2.TabIndex = 26;
             this.HamWhiteCover2.TabStop = false;
+            this.HamWhiteCover2.Click += new System.EventHandler(this.HamWhiteCover2_Click);
             // 
             // HamRunCover1
             // 
@@ -312,6 +319,7 @@
             this.HamRunCover1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.HamRunCover1.TabIndex = 27;
             this.HamRunCover1.TabStop = false;
+            this.HamRunCover1.Click += new System.EventHandler(this.HamRunCover1_Click);
             // 
             // HamRunCover2
             // 
@@ -322,6 +330,7 @@
             this.HamRunCover2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.HamRunCover2.TabIndex = 28;
             this.HamRunCover2.TabStop = false;
+            this.HamRunCover2.Click += new System.EventHandler(this.HamRunCover2_Click);
             // 
             // CarrotCover1
             // 
@@ -332,6 +341,7 @@
             this.CarrotCover1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.CarrotCover1.TabIndex = 29;
             this.CarrotCover1.TabStop = false;
+            this.CarrotCover1.Click += new System.EventHandler(this.CarrotCover1_Click);
             // 
             // CarrotCover2
             // 
@@ -342,6 +352,7 @@
             this.CarrotCover2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.CarrotCover2.TabIndex = 30;
             this.CarrotCover2.TabStop = false;
+            this.CarrotCover2.Click += new System.EventHandler(this.CarrotCover2_Click);
             // 
             // Form1
             // 
