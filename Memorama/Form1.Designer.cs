@@ -54,6 +54,8 @@
             this.HamRunCover2 = new System.Windows.Forms.PictureBox();
             this.CarrotCover1 = new System.Windows.Forms.PictureBox();
             this.CarrotCover2 = new System.Windows.Forms.PictureBox();
+            this.Correcto = new System.Windows.Forms.Label();
+            this.Incorrecto = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.HamCafe1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.HamGris1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.HamGun1)).BeginInit();
@@ -354,11 +356,37 @@
             this.CarrotCover2.TabStop = false;
             this.CarrotCover2.Click += new System.EventHandler(this.CarrotCover2_Click);
             // 
+            // Correcto
+            // 
+            this.Correcto.AutoSize = true;
+            this.Correcto.Font = new System.Drawing.Font("Written in the Stars", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Correcto.ForeColor = System.Drawing.Color.OliveDrab;
+            this.Correcto.Location = new System.Drawing.Point(697, 188);
+            this.Correcto.Name = "Correcto";
+            this.Correcto.Size = new System.Drawing.Size(122, 36);
+            this.Correcto.TabIndex = 31;
+            this.Correcto.Text = "Correcto";
+            this.Correcto.Visible = false;
+            // 
+            // Incorrecto
+            // 
+            this.Incorrecto.AutoSize = true;
+            this.Incorrecto.Font = new System.Drawing.Font("Written in the Stars", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Incorrecto.ForeColor = System.Drawing.Color.Firebrick;
+            this.Incorrecto.Location = new System.Drawing.Point(697, 296);
+            this.Incorrecto.Name = "Incorrecto";
+            this.Incorrecto.Size = new System.Drawing.Size(149, 36);
+            this.Incorrecto.TabIndex = 32;
+            this.Incorrecto.Text = "Incorrecto";
+            this.Incorrecto.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(861, 450);
+            this.Controls.Add(this.Incorrecto);
+            this.Controls.Add(this.Correcto);
             this.Controls.Add(this.CarrotCover2);
             this.Controls.Add(this.CarrotCover1);
             this.Controls.Add(this.HamRunCover2);
@@ -443,6 +471,8 @@
         private System.Windows.Forms.PictureBox HamRunCover2;
         private System.Windows.Forms.PictureBox CarrotCover1;
         private System.Windows.Forms.PictureBox CarrotCover2;
+        private System.Windows.Forms.Label Correcto;
+        private System.Windows.Forms.Label Incorrecto;
     }
 }
 
